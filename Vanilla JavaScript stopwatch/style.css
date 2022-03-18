@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'fantasy', 'Poppins', 'Robot';
+    font-weight: 900;
+}
+
+html {
+    overflow: hidden;
+}
+
+main {
+    background-color: springgreen;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    color: whitesmoke;
+    margin: 13px;
+}
+
+h2 {
+    font-size: 40px;
+    color: black;
+    margin: 13px;
+}
+
+p,
+span,
+#seconds {
+    font-size: 60px;
+    color: darkblue;
+}
+
+button {
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
